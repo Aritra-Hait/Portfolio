@@ -1,0 +1,109 @@
+@import url('../../vars.css');
+
+.intro {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 49px;
+    z-index: 1;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    z-index: 1;
+    color: var(--text-color);
+    align-items: flex-start;
+}
+
+.title {
+    font-size: 72px;
+    font-weight: 900;
+    font-family: var(--font-roboto);
+    margin-bottom: 33px;
+    background: linear-gradient(90deg, rgba(255, 255, 255, 1) 80%, rgba(255, 255, 255, 0) 120%);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+}
+
+.description {
+    font-size: 30px;
+    font-family: var(--font-roboto);
+    margin-bottom: 52px;
+}
+
+@keyframes floating {
+    0% {
+        transform: translate(0, 0px);
+    }
+
+    50% {
+        transform: translate(0, 10px);
+    }
+
+    100% {
+        transform: translate(0, -0px);
+    }
+}
+
+.photo {
+    width: 38%;
+    z-index: 1;
+    animation-name: floating;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+
+}
+
+.contactBtn {
+    text-decoration: none;
+    background-color: var(--primary-color);
+    color: var(--text-color);
+    border-radius: 100px;
+    font-size: 30px;
+    font-weight: 600;
+    padding: 17px 26px;
+    box-shadow: 0 0 4px 0 rgba(0, 0, 0, 0, 0.25);
+}
+
+.topBlur {
+    position: absolute;
+    width: 50vw;
+    height: 50vh;
+    min-width: none;
+    min-height: 350px;
+    top: -120px;
+    left: 10vw;
+    border-radius: 764px;
+    background: rgba(25, 55, 109, 0.7);
+    filter: blur(100px);
+    z-index: 0;
+}
+
+.bottomBlur {
+    position: absolute;
+    width: 50vw;
+    height: 50vh;
+    min-width: none;
+    min-height: 350px;
+    top: 246px;
+    right: -25vw;
+    border-radius: 764px;
+    background: rgba(25, 55, 109, 0.7);
+    filter: blur(100px);
+    z-index: 0;
+}
+
+@media screen and (max-width: 830px) {
+    .intro {
+        flex-direction: column-reverse;
+    }
+
+    .content {
+        align-items: center;
+    }
+}
