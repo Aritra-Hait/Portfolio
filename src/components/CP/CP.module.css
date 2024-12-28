@@ -1,0 +1,90 @@
+@import url('../../vars.css');
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: var(--text-color);
+    margin-top: 129px;
+    border-radius: 15px;
+    margin-bottom: 50px;
+    background: rgba(12, 12, 12, 0.6);
+    padding: 73px;
+    padding-bottom: 150px;
+    z-index: 1;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.title {
+    text-align: center;
+    color: var(--text-color);
+    font-size: 40px;
+    font-weight: 700;
+    letter-spacing: 1.75px;
+    text-transform: uppercase;
+    margin: 25px;
+}
+
+.ratings {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    gap: 300px;
+
+    margin-top: 50px;
+}
+
+.platformContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    font-size: 25px;
+    font-family: var(--font-roboto);
+}
+
+@keyframes countUp {
+    from {
+        content: 0;
+    }
+
+    to {
+        content: var(--final-number);
+    }
+}
+
+.platformContainer p {
+    font-size: 30px;
+    font-weight: 700;
+    letter-spacing: 1.75px;
+    border-radius: 15px;
+    border: 4px solid var(--primary-color);
+    padding: 15px;
+    color: var(--text-color);
+    margin: 5px;
+    animation: countUp 2s steps(1, end) forwards;
+}
+
+.Leetcode {
+    color: #f89f1b;
+}
+
+.Codechef {
+    color: #a57a5e;
+}
+
+.Codeforces {
+    color: #1f8acb;
+}
+
+@media screen and (max-width: 900px) {
+
+
+    .ratings {
+        flex-direction: column;
+        gap: 100px;
+    }
+
+}
