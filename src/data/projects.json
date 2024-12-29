@@ -8,8 +8,8 @@
             "CSS",
             "Javascript"
         ],
-        "demo": "https://www.example.com",
-        "source": "https://www.github.com"
+        "demo": "https://basiccalculatoronline.vercel.app/",
+        "source": "https://github.com/Aritra-Hait/Calculator"
     },
     {
         "title": "Portfolio",
@@ -20,7 +20,7 @@
             "CSS"
         ],
         "demo": "https://www.example.com",
-        "source": "https://www.github.com"
+        "source": "https://github.com/Aritra-Hait/Portfolio"
     },
     {
         "title": "Project C",
