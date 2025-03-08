@@ -1,7 +1,7 @@
 [
     {
         "title": "AptiTrack",
-        "imageSrc": "projects/project.png",
+        "imageSrc": "projects/apticrack.jpg",
         "description": "A dynamic and responsive website to practice aptitude questions topic wise along with explanation for each question .",
         "skills": [
             "React",
@@ -13,7 +13,7 @@
     },
     {
         "title": "Calculator",
-        "imageSrc": "projects/project.png",
+        "imageSrc": "projects/calculator.jpg",
         "description": "A simple calculator offering basic arithmetic operations with a clean and responsive design.",
         "skills": [
             "HTML",
@@ -25,7 +25,7 @@
     },
     {
         "title": "Portfolio",
-        "imageSrc": "projects/project.png",
+        "imageSrc": "projects/portfolio.jpg",
         "description": "A portfolio website showcasing my skills,projects and competitive programming ratings.",
         "skills": [
             "React",
