@@ -60,13 +60,25 @@
     }
 
     .text {
+        font-size: 45px;
         display: flex;
         flex-direction: column;
         align-items: center;
+    }
+
+    .text p {
+        font-size: 25px;
     }
 
     .links {
         align-items: center;
     }
 
+    .link a {
+        font-size: 22px;
+    }
+
+    .link img {
+        width: 35px;
+    }
 }
