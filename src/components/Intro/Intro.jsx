@@ -9,7 +9,7 @@ function Intro() {
             <h1 className={styles.title} style={{ '--characters': 20 }}>Hi, I am Aritra Hait</h1>
             <p className={styles.description}>I am a Frontend Developer with knowledge of HTML,CSS,Javascript and React JS.
                 <br />I also actively take part in competitive programming.</p>
-            <a href="mailto:myemail@email.com" className={styles.contactBtn}>
+            <a href="mailto:aritrahaitofficial@gmail.com" className={styles.contactBtn}>
                 Contact Me
             </a>
         </div>

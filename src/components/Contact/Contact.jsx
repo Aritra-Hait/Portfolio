@@ -13,7 +13,7 @@ function Contact() {
             <ul className={styles.links}>
                 <li className={styles.link}>
                     <img src={getImageUrl("contact/email.png")} alt="email icon" />
-                    <a href="mailto:aritrahait@gmail.com">aritrahait@gmail.com</a>
+                    <a href="mailto:aritrahaitofficial@gmail.com">aritrahaitofficial@gmail.com</a>
                 </li>
                 <li className={styles.link}><img src={getImageUrl("contact/linkedin.png")} alt="linkedin icon" />
                     <a href="https://www.linkedin.com/in/aritra-hait-395788294">linkedin.com/in/aritra-hait-395788294
