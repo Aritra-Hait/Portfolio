@@ -1,5 +1,17 @@
 [
     {
+        "title": "AptiTrack",
+        "imageSrc": "projects/project.png",
+        "description": "A dynamic and responsive website to practice aptitude questions topic wise.",
+        "skills": [
+            "React",
+            "CSS",
+            "REST API"
+        ],
+        "demo": "https://apti-track.vercel.app/",
+        "source": "https://github.com/Aritra-Hait/AptiTrack"
+    },
+    {
         "title": "Calculator",
         "imageSrc": "projects/project.png",
         "description": "A simple calculator offering basic arithmetic operations with a clean and responsive design.",
@@ -19,19 +31,7 @@
             "React",
             "CSS"
         ],
-        "demo": "https://www.example.com",
+        "demo": "https://ah-personalportfolio.vercel.app/",
         "source": "https://github.com/Aritra-Hait/Portfolio"
-    },
-    {
-        "title": "Project C",
-        "imageSrc": "projects/project.png",
-        "description": "This is a project made to learn the latest languages by building an app.",
-        "skills": [
-            "React",
-            "Express",
-            "Node"
-        ],
-        "demo": "https://www.example.com",
-        "source": "https://www.github.com"
     }
 ]

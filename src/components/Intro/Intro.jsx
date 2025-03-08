@@ -14,7 +14,7 @@ function Intro() {
             </a>
         </div>
 
-        <img className={styles.photo} src={getImageUrl("intro/s7photo.jpg")} alt="Photo" />
+        <img className={styles.photo} src={getImageUrl("intro/me.jpg")} alt="Photo" />
         <div className={styles.topBlur} />
         <div className={styles.bottomBlur} />
     </section>
