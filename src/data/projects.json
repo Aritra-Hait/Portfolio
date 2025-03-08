@@ -2,7 +2,7 @@
     {
         "title": "AptiTrack",
         "imageSrc": "projects/project.png",
-        "description": "A dynamic and responsive website to practice aptitude questions topic wise.",
+        "description": "A dynamic and responsive website to practice aptitude questions topic wise along with explanation for each question .",
         "skills": [
             "React",
             "CSS",
