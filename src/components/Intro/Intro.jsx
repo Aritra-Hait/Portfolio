@@ -7,7 +7,7 @@ function Intro() {
     return <section className={styles.intro}>
         <div className={styles.content}>
             <h1 className={styles.title} style={{ '--characters': 20 }}>Hi, I am Aritra Hait</h1>
-            <p className={styles.description}>I am a Frontend Developer with knowledge of HTML,CSS,Javascript and React JS.
+            <p className={styles.description}>I’m a Frontend Developer skilled in HTML, CSS, JavaScript, and ReactJS, with working knowledge of backend tools like NodeJS, Express, and MongoDB in the MERN stack.
                 <br />I also actively take part in competitive programming.</p>
             <a href="mailto:aritrahaitofficial@gmail.com" className={styles.contactBtn}>
                 Contact Me
