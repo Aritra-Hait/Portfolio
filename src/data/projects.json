@@ -1,8 +1,20 @@
 [
     {
+        "title": "StudySync",
+        "imageSrc": "projects/studysync.png",
+        "description": "A web app to boost productivity by helping students securely manage study notes and tasks with user authentication, subject-wise organization, and a built-in planner to schedule and log activities .",
+        "skills": [
+            "MERN",
+            "Tailwind CSS",
+            "JWT"
+        ],
+        "demo": "https://studysync-jjmz.onrender.com/",
+        "source": "https://github.com/Aritra-Hait/StudySync"
+    },
+    {
         "title": "AptiTrack",
-        "imageSrc": "projects/apticrack.jpg",
-        "description": "A dynamic and responsive website to practice aptitude questions topic wise along with explanation for each question .",
+        "imageSrc": "projects/aptitrack.png",
+        "description": "A dynamic and responsive website to practice aptitude questions topic-wise, along with final score, time taken, and explanation for each question to aid self-improvement.",
         "skills": [
             "React",
             "CSS",
@@ -13,7 +25,7 @@
     },
     {
         "title": "Calculator",
-        "imageSrc": "projects/calculator.jpg",
+        "imageSrc": "projects/calculator.png",
         "description": "A simple calculator offering basic arithmetic operations with a clean and responsive design.",
         "skills": [
             "HTML",
@@ -25,7 +37,7 @@
     },
     {
         "title": "Portfolio",
-        "imageSrc": "projects/portfolio.jpg",
+        "imageSrc": "projects/portfolio.png",
         "description": "A portfolio website showcasing my skills,projects and competitive programming ratings.",
         "skills": [
             "React",
